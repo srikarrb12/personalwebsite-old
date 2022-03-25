@@ -72,6 +72,53 @@ a:active {
     border-color: black;
   }
 
+.wallpaper-color {
+    background-color: #f3f4f3;
+}
+
+.header-padding {
+    padding-top: 5%;
+}
+
+.header-tab-positioning {
+    position:absolute;
+    bottom:0;
+}
+
+.page-size-no-scroll {
+    height:80vh;
+}
+
+.pfp-image-sizing {
+    margin:auto;
+    width: 70%;
+    height: 70%;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.light {
+    font-weight: light;
+}
+
+.resume-button {
+    background-color: beige;
+    border-color: black;
+    border-width: 0.15vh;
+}
+.projects-button {
+    background-color: blanchedalmond;
+    border-color: black;
+    border-width: 0.15vh;
+}
+.contact-button {
+    background-color: burlywood;
+    border-color: black;
+    border-width: 0.15vh;
+}
+
 .testing-round-box {
     border-top:1px;
     border-bottom: 1px;

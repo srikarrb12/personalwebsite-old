@@ -13,6 +13,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="customstyles.css">
 
+
+    <link rel="icon" href="images/icon.png">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,33 +32,33 @@
     </style>
 
   </head>
-    <body style="background-color: #f3f4f3;">
+    <body class="wallpaper-color">
       
       <div class="container">
         <div class="row">
             <div class="col-6">
-                <h1 style="padding-top: 5%;">Srikar Bhumireddy</h1>
+                <h1 class="header-padding">Srikar Bhumireddy</h1>
             </div>
             
             <div class="col-6 d-flex justify-content-between">
                 <div class="col">
-                    <div style="position:absolute; bottom:0"> 
-                      <h5 style="padding-top: 5%;"><a rel="noopener" href="homepage.html"><u>Home</u></a></h5>
+                    <div class="header-tab-positioning"> 
+                      <h5><a rel="noopener" href="index.html"><u>Home</u></a></h5>
                     </div>
                 </div>
                 <div class="col">
-                    <div style="position:absolute; bottom:0"> 
-                      <h5 style="padding-top: 5%;"><a rel="noopener" href="resume.html">Resume</a></h5>
+                    <div class="header-tab-positioning"> 
+                      <h5><a rel="noopener" href="resume.html">Resume</a></h5>
                     </div>
                 </div>
                 <div class="col">
-                    <div style="position:absolute; bottom:0"> 
-                      <h5 style="padding-top: 5%;"><a rel="noopener" href="projects.html">Projects</a></h5>
+                    <div class="header-tab-positioning"> 
+                      <h5><a rel="noopener" href="projects.html">Projects</a></h5>
                     </div>
                 </div>
                 <div class="col">
-                    <div style="position:absolute; bottom:0"> 
-                      <h5 style="padding-top: 5%;"><a rel="noopener" href="contact.html">Contact</a></h5>
+                    <div class="header-tab-positioning"> 
+                      <h5><a rel="noopener" href="contact.html">Contact</a></h5>
                     </div>
                 </div>
             </div>
@@ -66,7 +69,7 @@
       </div>
 
         <!-- outermost border -->
-        <div class="mb-10 d-flex justify-content-around" style="height:80vh;">
+        <div class="mb-10 d-flex justify-content-around page-size-no-scroll">
       
           <div class="container">
             <div class="h-100 row">
@@ -74,35 +77,34 @@
               <div class="col-6 align-self-center">
                 <div class="col" style="text-align: right;">
                   <img src="images/testimage.png"
-                  class="image-sizing"
-                  alt="PFP"
-                  style="margin:auto; width: 70%; height: 70%;">
+                  class="pfp-image-sizing image-sizing"
+                  alt="PFP">
                 </div>
               </div>
 
               <!-- about me -->
               <div class="col-6 align-self-center">
                 <div class="row">
-                  <h1 class="display-5" style="font-weight:bold;">Hi there</h1>
+                  <h1 class="display-5 bold">Hi there</h1>
                 </div>
 
                 <div class="row">
                   <div class="col-10">
-                    <h4 style="font-weight:bold;">Let me introduce myself</h4>
-                    <p style="font-weight:light;">My name is Srikar Bhumireddy! I am a first year Computer Science student at the Georgia Institute of Technology, and I am currently a Software Engineering Intern at <a href="https://www.minicityatl.com/" target="_blank"><u>Mini City</u></a>. I am very passionate about CS, and one of my goals is to explore the various different fields (full-stack development, artifical intelligence, etc.) in the Computer Science industry to discover which one I am interested in the most! </p>
+                    <h4 class="bold">Let me introduce myself</h4>
+                    <p class="light">My name is Srikar Bhumireddy! I am a first year Computer Science student at the Georgia Institute of Technology, and I am currently a Software Engineering Intern at <a href="https://www.minicityatl.com/" target="_blank"><u>Mini City</u></a>. I am very passionate about CS, and one of my goals is to explore the various different fields (full-stack development, artifical intelligence, etc.) in the Computer Science industry to discover which one I am interested in the most! </p>
                   </div>
                 </div>
 
                 <div class="row d-flex flex-row justify-content-between">
                   
                   <div class="col" style="text-align: left;">
-                    <button type="button" class="btn btn-circle btn-xl" style="background-color: beige; border-color: black; border-width: 0.15vh;" onclick="location.href = 'resume.html'">Resume</button>
+                    <button type="button" class="btn btn-circle btn-xl resume-button" onclick="location.href = 'resume.html'">Resume</button>
                   </div>
                   <div class="col" style="text-align: left;">
-                    <button type="button" class="btn btn-circle btn-xl" style="background-color: blanchedalmond; border-color: black; border-width: 0.15vh;" onclick="location.href = 'projects.html';">Projects</button>
+                    <button type="button" class="btn btn-circle btn-xl projects-button" onclick="location.href = 'projects.html';">Projects</button>
                   </div>
                   <div class="col" style="text-align: left;">
-                    <button type="button" class="btn btn-circle btn-xl" style="background-color: burlywood; border-color: black; border-width: 0.15vh;" onclick="location.href = 'contact.html';">Contact</button>
+                    <button type="button" class="btn btn-circle btn-xl contact-button"  onclick="location.href = 'contact.html';">Contact</button>
                   </div>
                   <div class="col-1">
                     
