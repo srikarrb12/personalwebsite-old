@@ -72,8 +72,10 @@ a:active {
     border-color: black;
   }
 
-.wallpaper-color {
+.page-frame {
     background-color: #f3f4f3;
+    min-width: 800px;
+    min-height: 400px;
 }
 
 .header-padding {
