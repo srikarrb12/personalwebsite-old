@@ -1,13 +1,149 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.testingtext {
+  padding: 1rem;
+  background-color: antiquewhite;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+}
+.btn-circle.btn-xl {
+  width: 100px;
+  height: 100px;
+  padding: 13px 18px;
+  border-radius: 60px;
+  font-size: 15px;
+  text-align: center;
+}
+.image-sizing {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 100%;
+}
+
+.experience-header {
+  padding-left: 0%;
+  padding-top: 2%;
+}
+.sub-experience-padding {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.align-start-end-dates {
+  text-align: right;
+  padding-top: 12%;
+}
+a:link {
+  text-decoration: none;
+  color: inherit;
+  transition: all 300ms ease;
+}
+a:visited {
+  text-decoration: none;
+  color: inherit;
+  transition: all 300ms ease;
+}
+a:hover {
+  text-decoration: none;
+  color: #40b7fc !important;
+  transition: all 300ms ease;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+  transition: all 300ms ease;
+}
+
+.graydot {
+  width: 1.5vh;
+  height: 1.5vh;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  border-style: solid;
+  border: solid;
+  border-width: 0.1vh;
+  border-color: black;
+}
+
+.blackdot {
+  height: 1.5vh;
+  width: 1.5vh;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  border-style: solid;
+  border: solid;
+  border-color: black;
+}
+
+.page-frame {
+  background-color: #f3f4f3;
+  min-width: 800px;
+  min-height: 400px;
+}
+
+.page-size-no-scroll {
+  height: 80vh;
+}
+
+.pfp-image-sizing {
+  margin: auto;
+  width: 70%;
+  height: 70%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.light {
+  font-weight: light;
+}
+
+.intro-button {
+  background-color: white;
+  border-color: black;
+  border-width: 0.15vh;
+}
+
+.resume-button {
+  background-color: beige;
+  border-color: black;
+  border-width: 0.15vh;
+}
+.projects-button {
+  background-color: blanchedalmond;
+  border-color: black;
+  border-width: 0.15vh;
+}
+.contact-button {
+  background-color: burlywood;
+  border-color: black;
+  border-width: 0.15vh;
+}
+
+.testing-round-box {
+  border-top: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  width: max-content;
 }
